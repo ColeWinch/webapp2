@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title><%=title%></title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="manifest" href="assignment.webmanifest">
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#!">BS2205 Assignment</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
+                        <!-- <%for(let i=0; i<nav.length; i++) {%>
+                            <li class="nav-item"><a class="nav-link" href="<%=nav[i].link%>"><%=nav[i].title%></a></li>
+                        <% } %> -->
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="Report">Report</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li> -->
+                        <!-- <li class="nav-item"><a class="nav-link" href="#!">Services</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <!-- <header class="bg-dark py-5">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="text-center my-5">
+                            <h1 class="display-5 fw-bolder text-white mb-2"><%=title%></h1>
+                            <!-- <p class="lead text-white-50 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit!</p> -->
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                                <!-- <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>
+                                <a class="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Features section-->
+        <section class="py-5 border-bottom" id="features">
+            <div class="container px-5 my-5">
+                <div class="row gx-5">
+                    <h2 class="h40 fw-bolder">References Used</h2>
+                    <h3 class="h4 fw-semibold">The following is a list of references used in the assignment report, using Hardvard Referencing.</h3>
+                    <p>Figma (2024) Figma. <br>
+                        Available at:
+                        <a  class="text-decoration-none" href="https://www.figma.com">https://www.figma.com</a> <br>
+                        [Accessed 25 April 2024]<br>
+
+                        <br>Geeksforgeeks (2021) Different between index.ejs and index.html <br>
+                        Available at:
+                        <a  class="text-decoration-none" href="https://www.geeksforgeeks.org/difference-between-index-ejs-and-index-html/">https://www.geeksforgeeks.org/difference-between-index-ejs-and-index-html/</a> <br>
+                        [Accessed 25 April 2024]<br>
+
+                        <br>Leeway Hertz (2024) A Complete Guide on Software Testing. <br>
+                        Available at: 
+                        <a  class="text-decoration-none" href="https://www.leewayhertz.com/software-testing-process/">https://www.leewayhertz.com/software-testing-process/</a> <br>
+                        [Accessed 20 April 2024]<br>
+
+                        <br>Lenovo (2024) What is a GUI? <br>
+                        Available at: 
+                        <a  class="text-decoration-none" href="https://www.lenovo.com/gb/en/glossary/what-is-a-gui/?orgRef=https%253A%252F%252Fwww.google.com%252F">https://www.lenovo.com/gb/en/glossary/what-is-a-gui/?orgRef=https%253A%252F%252Fwww.google.com%252F</a> <br>
+                        [Accessed 25 April 2024]<br>
+
+                        <br>Qualtrics (2024) Likert Scale Definition. <br>
+                        Available at: 
+                        <a  class="text-decoration-none" href="https://www.qualtrics.com/uk/experience-management/research/likert-scales/#:~:text=A%20likert%20scale%2C%20or%20rating,engagement%20surveys%2C%20to%20market%20research">https://www.qualtrics.com/uk/experience-management/research/likert-scales/#:~:text=A%20likert%20scale%2C%20or%20rating,engagement%20surveys%2C%20to%20market%20research</a> <br>
+                        [Accessed 24 April 2024]<br>
+
+                        <br>Sharma, A (2023) Express JS Tutorial. <br>
+                        Available at:
+                        <a  class="text-decoration-none" href="https://www.simplilearn.com/tutorials/nodejs-tutorial/what-is-express-js">https://www.simplilearn.com/tutorials/nodejs-tutorial/what-is-express-js</a> <br>
+                        [Accessed 25 April 2024]<br>
+
+                        <br>Stack Overflow (2024) Unlock your team’s collective knowledge. <br>
+                        Available at: 
+                        <a  class="text-decoration-none" href="https://try.stackoverflow.co/explore-teams?utm_source=adwords&utm_medium=ppc&utm_campaign=kb_teams_search_brand_emea-dach&_bt=657236278309&_bk=stack+overflow&_bm=p&_bn=g&gad_source=1&gclid=CjwKCAjwoPOwBhAeEiwAJuXRhwJhK4AZP3T6GB2cj2Pq9Bc_uSafphAgeooaYqb6ZNtHLsZIIUDz-xoCTg8QAvD_BwE">https://try.stackoverflow.co/explore-teams?utm_source=adwords&utm_medium=ppc&utm_campaign=kb_teams_search_brand_emea-dach&_bt=657236278309&_bk=stack+overflow&_bm=p&_bn=g&gad_source=1&gclid=CjwKCAjwoPOwBhAeEiwAJuXRhwJhK4AZP3T6GB2cj2Pq9Bc_uSafphAgeooaYqb6ZNtHLsZIIUDz-xoCTg8QAvD_BwE</a> <br>
+                        [Accessed 15 April 2024]<br>
+                        
+                        <br>Startbootstrap (2021) Business Frontpage. <br>
+                        Available at: 
+                        <a  class="text-decoration-none" href="https://startbootstrap.com/template/business-frontpage">https://startbootstrap.com/template/business-frontpage</a> <br>
+                        [Accessed 20 April 2024]<br>
+                        
+                        <br>Yassir (2023) Exploring Different Web Development Methodologies. <br>
+                        Available at: 
+                        <a  class="text-decoration-none" href="https://yaasir007.medium.com/exploring-different-web-development-methodologies-a-simplified-guide-with-examples-4cdb499b298f">https://yaasir007.medium.com/exploring-different-web-development-methodologies-a-simplified-guide-with-examples-4cdb499b298f</a> <br>
+                        [Accessed 11 April 2024]<br>
+                        </p>
+                    <section class="py-5 border-bottom">
+                    </section>
+                    <a class="text-decoration-none" href="/report">
+                        <i class="bi-arrow-left bi"></i>
+                        Go back
+                        
+                    </a>
+
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Web App Dev 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>

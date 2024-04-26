@@ -1,0 +1,14 @@
+{
+    "name": "Web Dev SA",
+    "short_name": "Web Dev",
+    "descrition": "Summative Assignment for Web and Mobile Application Development",
+    "icons": [
+        {
+            "src": "icons/bluewhite.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/assignment/index.ejs",
+    "display": "fullscreen"
+}
