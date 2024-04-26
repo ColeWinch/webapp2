@@ -41,9 +41,9 @@ app.get('/', function(req, res) {
         );
 });
 
-// app.listen(port, function() {
-//     debug(`Listening on port ${chalk.green('4000')}`);
-// });
+app.listen(port, function() {
+    debug(`Listening on port ${chalk.green('4000')}`);
+});
 
 app.use(express.json());
 app.use('/feed', feedRoutes);
@@ -51,7 +51,7 @@ app.use('/feed', feedRoutes);
 mongoose
     .connect('mongodb+srv://cowen22:Password123@cluster0.eluucni.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
     .then(result => {
-        app.listen(4000);
+        app.listen(4001);
     })
     .catch(err => console.log('err', err))
 
