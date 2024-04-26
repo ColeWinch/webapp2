@@ -55,3 +55,4 @@ mongoose
     })
     .catch(err => console.log('err', err))
 
+    // "start": "set DEBUG=app & nodemon node app.js" 
